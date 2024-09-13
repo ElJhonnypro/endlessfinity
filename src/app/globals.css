@@ -6,9 +6,11 @@
 }
 
 :root {
-  --background: rgb(0, 120, 218);
-  --foreground: #000000;
-  --navbar-primary: #ffffff8a;
+  --background: #298dde;
+  --background-secondary: #1e68a4de;
+  --foreground: #ffffff;
+  --foreground-link: #00fbff;
+  --navbar-primary: #234e708c;
 }
 
 @media (prefers-color-scheme: dark) {
