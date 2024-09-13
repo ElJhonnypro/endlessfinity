@@ -36,18 +36,18 @@
 }
 
 .header .navbar ul li a span::before {
-    content: "";
+    content: ""; 
     display: block;
-    width: 0;
     position: absolute;
     bottom: 0;
-    height: 0.3vh;
-    border-radius: 10%;
-    background-color: var(--foreground);
-    transition: width 0.5s;
+    left: 50%;
+    width: 0; 
+    height: 2px; 
+    background-color: var(--foreground); 
+    transition: width 0.3s ease, left 0.3s ease; 
 }
 
 .header .navbar ul li a:hover span::before {
-    width: 100%;
-    transition: width 0.5s;
-} 
+    width: 100%; 
+    left: 0; 
+}
