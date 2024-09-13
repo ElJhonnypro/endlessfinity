@@ -50,4 +50,5 @@
 .header .navbar ul li a:hover span::before {
     width: 100%; 
     left: 0; 
+    transition: width 0.3s ease, left 0.3s ease; 
 }
