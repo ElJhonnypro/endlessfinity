@@ -12,7 +12,7 @@ export default function Home() {
     <div className="content">
       <h1 className="title">Web shop!</h1>
       <div className="info">
-      <p>Join our store: <a href="/https://endlessfinity.craftingstore.net/"><span>Shop</span></a></p>
+      <p>Join our store: <a href="https://endlessfinity.craftingstore.net/"><span>Shop</span></a></p>
 
       </div>
     </div>
