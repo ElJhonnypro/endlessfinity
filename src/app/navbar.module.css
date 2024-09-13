@@ -1,3 +1,52 @@
 .header {
-    background-color: ;
+    background-color: var(--navbar-primary);
+    padding: 1.5vh;
+
 }
+
+.header .navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vh;
+    list-style: none;
+}
+
+.header .navbar ul li a {
+    color: var(--foreground);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none ;
+    font-size: 2vh;
+    position: relative;
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header .navbar .logo img{
+    width: 10vh !important;
+    height: 10vh !important;
+    border-radius: 1.87vh;
+}
+
+.header .navbar ul li a span::before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    height: 0.3vh;
+    border-radius: 10%;
+    background-color: var(--foreground);
+    transition: width 0.5s;
+}
+
+.header .navbar ul li a:hover span::before {
+    width: 100%;
+    transition: width 0.5s;
+} 
